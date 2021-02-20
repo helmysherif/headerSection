@@ -1,0 +1,249 @@
+#section3
+{
+    background-color: #f1f1f1;
+    padding:30px 0;
+}
+#section3 .title
+{
+    text-align: center;
+}
+#section3 .title h1
+{
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 42px;
+    color:#333745;
+}
+#section3 .title h1 span
+{
+    font-weight: 900;
+    color:#f82e56;
+}
+#section3 .title p
+{
+   padding:10px 0 30px;
+}
+#section3 .product-details
+{
+    transition: .4s;
+    margin-bottom:30px;
+}
+#section3 .product-details .text
+{
+    opacity: 1;
+    display: none;
+    transition: .3s;
+}
+#section3 .product-details:hover .text
+{
+    opacity: 1;
+    display: block;
+}
+#section3 .product-details:hover
+{
+    box-shadow: 0 3px 3px rgba(0,0,0,.3);
+}
+#section3 .product-image
+{
+    position: relative;
+}
+#section3 .product-image .new,
+#section3 .product-image .favorite,
+#section3 .product-image .discount,
+#section3 .product-image .share
+{
+    background-color: #333745;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 2;
+}
+#section3 .product-image .discount
+{
+    background-color: #f82e56;
+    top:60px;
+    color:#fff;
+}
+#section3 .product-image .favorite,
+#section3 .product-image .share
+{
+    width:30px;
+    height:30px;
+}
+#section3 .product-image .favorite a,
+#section3 .product-image .share a
+{
+    transition: .4s;
+}
+#section3 .product-image .favorite:hover a,
+#section3 .product-image .share:hover a
+{
+    color:#f82e56;
+}
+#section3 .product-image .view
+{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: .3s;
+    align-items: center;
+}
+#section3 .product-image .offer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,.8);
+    opacity:1;
+    transition: .3s;
+}
+#section3 .product-image:hover .offer
+{
+    opacity:0;
+}
+#section3 .product-image .offer p
+{
+    margin:0;
+    color:#333745;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size: 15px;
+}
+#section3 .product-image .offer .dates
+{
+    display: flex;
+    justify-content: center;
+    color:#f82e56;
+    font-weight: 600;
+    font-size: 20px;
+}
+#section3 .product-image .offer .dates .date
+{
+    text-transform: uppercase;
+    margin:0 10px;
+    font-size: 17px;
+}
+#section3 .product-image .available
+{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+    align-items: center;
+    background-color: rgba(255,255,255,.5);
+}
+#section3 .product-image .available span
+{
+    color:#333745;
+    background-color: #fff;
+    padding:14px 30px;
+    font-size:20px;
+    font-weight: 600;
+    box-shadow: 0 2px 3px rgba(0,0,0,.3);
+    text-transform: uppercase;
+}
+#section3 .product-image .view .btn
+{
+    background-color: rgba(255,255,255,.4);
+    text-transform: uppercase;
+    border:0;
+    color:#333745;
+    padding:10px 15px;
+    font-weight: bold;
+    transition: .3s;
+}
+#section3 .product-image .view .btn:hover
+{
+    background-color: #fff;
+}
+#section3 .product-image .favorite,
+#section3 .product-image .share
+{
+    top:0;
+    left:10px;
+    background-color: transparent;
+    opacity: 0;
+    transition: .4s;
+}
+#section3 .product-image:hover .favorite,
+#section3 .product-image:hover .share,
+#section3 .product-image:hover .view
+{   
+    opacity: 1;
+}
+#section3 .product-image .share
+{
+    top:50px;
+}
+#section3 .product-image .favorite a,
+#section3 .product-image .share a
+{
+    text-decoration: none;
+    color:#333745;
+    font-size: 22px;
+}
+#section3 .product-caption a
+{
+    text-decoration: none;
+    color:#333745;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+#section3 .product-caption .price
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section3 .product-caption .price del
+{
+    font-size: 16px;
+    color: #8f8f8f;
+    margin-right:5px;
+}
+#section3 .product-caption p
+{
+    font-weight:700;
+    color:#f82e56;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+#section3 .product-caption .rate i
+{
+    font-size: 12px;
+    margin-right:2px;
+    color:#ffc000;
+}
+#section3 .product-caption .btn
+{
+    margin-top:10px;
+    background-color: #f82e56;
+    border:0;
+    border-radius: 0;
+    border:2px solid #f82e56;
+    transition: .4s;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+#section3 .product-caption .btn:hover
+{
+    color:#f82e56;
+    background-color: transparent;
+}
